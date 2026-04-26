@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router";
 import HomePage from "../pages/HomePage";
 import UsersPage from "../pages/UsersPage";
 import CartPage from "../pages/CartPage";
-import ProductDetails from "../pages/ProductDetail";
+import ProductDetail from "../pages/ProductDetail";
 import AuthPage from "../pages/AuthPage";
 import PublicRoutes from "../components/PublicRoutes";
 import ProctedRoute from "../components/ProctedRoute";
@@ -19,13 +19,13 @@ const AppRoutes = () => {
           <Route path="/auth" element={<AuthPage />} />
         </Route>
 
-        <Route element={<ProctedRoute/>}>
-        <Route path="/" element={<HomePage />} />
+        <Route element={<ProctedRoute />}>
+          <Route path="/" element={<HomePage />} />
           <Route path="/users" element={<UsersPage />} />
           <Route path="/cart" element={<CartPage />} />
         </Route>
 
-        <Route path="/products/details/:id" element={<ProductDetails />} />
+        <Route path="/products/details/:id" element={<ProductDetail />} />
 
       </Routes>
     </div>
