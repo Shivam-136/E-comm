@@ -1,6 +1,6 @@
 import React from 'react'
 import AppRoutes from './Routes/AppRoutes'
-import Navbar from './Components/Navbar'
+import Navbar from './Components/NavBar'
 
 
 const App = () => {
