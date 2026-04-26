@@ -4,7 +4,7 @@ import HomePage from "../pages/HomePage";
 import UsersPage from "../pages/UsersPage";
 import CartPage from "../pages/CartPage";
 import ProductDetails from "../pages/ProductDetail";
-import AuthPage from "../Pages/AuthPage";
+import AuthPage from "../pages/AuthPage";
 import PublicRoutes from "../components/PublicRoutes";
 import ProctedRoute from "../components/ProctedRoute";
 
