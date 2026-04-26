@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { useLocation, useNavigate } from "react-router";
-import { Product } from "../context/productContext";
+import { Product } from "../context/ProductContext";
 
 const ProductCard = ({ product, quantity }) => {
   const { pathname } = useLocation();
