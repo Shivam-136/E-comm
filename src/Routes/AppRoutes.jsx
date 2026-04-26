@@ -1,10 +1,10 @@
 import React from "react";
 import { Route, Routes } from "react-router";
-import HomePage from "../pages/HomePage";
-import UsersPage from "../pages/UsersPage";
-import CartPage from "../pages/CartPage";
-import ProductDetail from "../pages/ProductDetail";
-import AuthPage from "../pages/AuthPage";
+import HomePage from "../Pages/HomePage";
+import UsersPage from "../Pages/UsersPage";
+import CartPage from "../Pages/CartPage";
+import ProductDetail from "../Pages/ProductDetail";
+import AuthPage from "../Pages/AuthPage";
 import PublicRoutes from "../components/PublicRoutes";
 import ProctedRoute from "../components/ProctedRoute";
 
