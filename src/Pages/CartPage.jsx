@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Product } from "../context/ProductContext";
+import { Product } from "../context/productContext";
 import { useNavigate } from "react-router";
 
 const CartPage = () => {
